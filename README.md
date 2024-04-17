@@ -68,7 +68,7 @@ Heapsort is a sorting algorithm that works by building a heap data structure fro
 
 # Methodology: 
 Here's the step-by-step methodology for implementing Heapsort: 
-1. Build a heap from the array to be sorted. The heap can be either a maxheap or a min-heap, depending on whether you want to sort the array in ascending or descending order.. 
+1. Build a heap from the array to be sorted. The heap can be either a max heap or a min-heap, depending on whether you want to sort the array in ascending or descending order.. 
 2. Swap the first element of the heap with the last element of the heap. 
 3. Discard the last element of the heap (it is now sorted) and reduce the heap size by one. 
 4. Restore the heap property by calling the max-heapify function on the root element. 
