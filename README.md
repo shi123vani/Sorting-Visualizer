@@ -40,4 +40,37 @@ The step-by-step methodology of implementing the selection-sort algorithm:
 2. Compare the minimum element with the second element. If the second element is smaller than the minimum, set the second element as the new minimum. 
 3. Repeat step 2 for the rest of the elements in the array. 
 4. Swap the minimum element with the first element of the array. 
-5. Repeat steps 1 through 4 for the remaining elements of the array.    
+5. Repeat steps 1 through 4 for the remaining elements of the array.
+
+# Merge-Sort: - 
+Mergesort is a popular sorting algorithm that works by recursively dividing an array into smaller subarrays until each subarray contains only one element. Then, it combines the subarrays by sorting and merging them. 
+
+# Methodology: 
+The following is the methodology of implementing the Mergesort algorithm
+1. Divide the array into two halves 
+2. Sort the left half recursively using mergesort 
+3. Sort the right half recursively using mergesort 
+4. Merge the two sorted halves
+
+# Quick-Sort: - 
+The quicksort algorithm is a divide-and-conquer sorting algorithm that works by partitioning an array into two subarrays, one with elements smaller than a pivot and the other with elements greater than the pivot, and then recursively sorting the subarrays. The algorithm has an averagecase time complexity of O(n log n) and a worst-case time complexity of O(n^2), but its worst-case performance can be avoided with careful selection of the pivot. 
+
+# Methodology: 
+The quicksort algorithm works as follows: 
+1. If the array has fewer than two elements, return the array. 
+2. Select a pivot element from the array. 
+3. Partition the array into two subarrays, one with elements smaller than the pivot and the other with elements greater than the pivot. 
+4. Recursively sort the subarrays using quicksort. 
+5. Concatenate the sorted subarrays and return the result.
+
+# Heap-Sort: - 
+Heapsort is a sorting algorithm that works by building a heap data structure from the array to be sorted and then repeatedly extracting the maximum element from the heap and placing it at the end of the sorted array. The process is repeated until the entire array is sorted. 
+
+# Methodology: 
+Here's the step-by-step methodology for implementing Heapsort: 
+1. Build a heap from the array to be sorted. The heap can be either a maxheap or a min-heap, depending on whether you want to sort the array in ascending or descending order.. 
+2. Swap the first element of the heap with the last element of the heap. 
+3. Discard the last element of the heap (it is now sorted) and reduce the heap size by one. 
+4. Restore the heap property by calling the max-heapify function on the root element. 
+5. Repeat steps 2-4 until the heap size is 1. 
+6. The sorted array is obtained by reversing the array obtained after applying the heap sort algorithm.   
