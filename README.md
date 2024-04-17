@@ -53,7 +53,7 @@ The following is the methodology of implementing the Mergesort algorithm
 4. Merge the two sorted halves
 
 # Quick-Sort: - 
-The quicksort algorithm is a divide-and-conquer sorting algorithm that works by partitioning an array into two subarrays, one with elements smaller than a pivot and the other with elements greater than the pivot, and then recursively sorting the subarrays. The algorithm has an averagecase time complexity of O(n log n) and a worst-case time complexity of O(n^2), but its worst-case performance can be avoided with careful selection of the pivot. 
+The quicksort algorithm is a divide-and-conquer sorting algorithm that works by partitioning an array into two subarrays, one with elements smaller than a pivot and the other with elements greater than the pivot, and then recursively sorting the subarrays. The algorithm has an average case time complexity of O(n log n) and a worst-case time complexity of O(n^2), but its worst-case performance can be avoided with careful selection of the pivot. 
 
 # Methodology: 
 The quicksort algorithm works as follows: 
