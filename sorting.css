@@ -120,101 +120,6 @@ p {
   text-decoration: none;
 }
 
-/* .sidebar {
-  font-family: "Oxygen", monospace, Courier;
-  font-weight: bold;
-  position: static;
-  left: -250px;
-  z-index: 10;
-  bottom: 0;
-  width: 250px;
-  height: 100%;
-  background: rgb(248, 248, 247);
-  transition: all 0.5s ease;
-}
-
-.sidebar header {
-  font-size: 25px;
-  color: white;
-  text-align: left;
-  line-height: 70px;
-  background: rgba(8, 27, 236, 0.944);
-  user-select: none;
-}
-
-.sidebar ul a {
-  display: block;
-  list-style-type: none;
-  height: 100%;
-  width: 100%;
-  line-height: 65px;
-  font-size: 20px;
-  text-transform: uppercase;
-  color: black;
-  padding-left: 40px;
-  box-sizing: border-box;
-  border-top: 1px solid rgb(233, 234, 237);
-  border-bottom: 1px solid rgb(237, 236, 233);
-  transition: 0.4s;
-}
-
-ul li:hover a {
-  padding-left: 50px;
-  background: rgba(8, 27, 236, 0.944);
-}
-
-.sidebar ul a i {
-  margin-right: 20px;
-}
-
-#check {
-  display: none;
-}
-
-label #btn,
-label #cancel {
-  position: absolute;
-  cursor: pointer;
-  background: #1a3bdf;
-  border-radius: 5px;
-}
-
-label #btn {
-  left: 20px;
-  z-index: 100;
-  top: 15px;
-  font-size: 25px;
-  color: white;
-  padding: 5px 12px;
-  transition: all 0.5s;
-}
-
-label #cancel {
-  z-index: 100;
-  left: -195px;
-  bottom: 5px;
-  font-size: 10px;
-  color: white;
-  padding: 4px 9px;
-  transition: all 0.5s ease;
-}
-
-#check:checked ~ .sidebar {
-  left: 0;
-}
-
-#check:checked ~ label #btn {
-  transform: rotate(250deg);
-  left: 250px;
-  opacity: 0;
-  pointer-events: none;
-}
-
-#check:checked ~ label #cancel {
-  transform: rotate(-180deg);
-  left: 195px;
-} */
-
 .back-video {
   position: fixed;
   right: 0;
@@ -249,11 +154,6 @@ footer {
 footer ul {
   list-style: none;
 }
-
-/* footer a {
-  color: #fff;
-  text-decoration: none;
-} */
 
 footer .container {
   max-width: 1200px;
@@ -293,17 +193,6 @@ footer .container {
     flex-direction: column;
   }
 }
-
-/* .ripple-sort-btn {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-} */
 
 body {
   margin: 0;
